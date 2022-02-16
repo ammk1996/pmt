@@ -25,21 +25,21 @@ class Profile extends Component {
 
   render() {
     return (
-      <>
+      <><br/><br/>
         <div style={{ color: "#fff", textAlign: "center" }}>
           <h1 className="display-4">Profile</h1><br/>
           <p className="lead text-center">Thank you for using jarvis </p><br/><br/><br/>
 
           <form >
           
-            <p>Username:     {this.state.user.userName}</p><br/>
-            <p>Password:    {this.state.user.password}</p><br/>
-            <p>Full Name:   {this.state.user.fullname}</p><br/>
-            <p>Email:   {this.state.user.email}</p><br/>
-            <p>Contact:   {this.state.user.contact}</p><br/>
-            <p>Designation:   {this.state.user.designation}</p><br/>
-            <p>Skills:    {this.state.user.skills}</p><br/>
-            <p>Experience:    {this.state.user.experience}</p><br/>
+            <p>Username:                              {this.state.user.userName}</p><br/>
+            <p>Password:                              {this.state.user.password}</p><br/>
+            <p>Full Name:                              {this.state.user.fullname}</p><br/>
+            <p>Email:                              {this.state.user.email}</p><br/>
+            <p>Contact:                              {this.state.user.contact}</p><br/>
+            <p>Designation:                              {this.state.user.designation}</p><br/>
+            <p>Skills:                              {this.state.user.skills}</p><br/>
+            <p>Experience:                              {this.state.user.experience}</p><br/>
 
               
 
@@ -54,7 +54,7 @@ class Profile extends Component {
 
             
 
-          
+          <br/><br/><br/>
           <div className="container center">
             <React.Fragment>
               <Link to="/editprofile" className="btn btn-lg btn-info center">

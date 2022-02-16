@@ -77,8 +77,9 @@ class EditProfile extends Component{
             <div className="container">
               <div className="row">
                 <div className="col-md-8 m-auto">
+                  <br/><br/>
                   <h4 className="display-4 text-center">Update Profile</h4>
-                  <br></br><br></br><br></br><br></br>
+                  <br></br><br></br><br></br>
                   <div id="error"></div>
                   <form onSubmit={this.onSubmit}>
                     <div className="form-group">
@@ -86,7 +87,7 @@ class EditProfile extends Component{
                       <input type = "text" 
                         className="form-control form-control-lg"
                         placeholder={this.state.user.userName}
-                        value={this.state.userName}
+                        value={this.state.user.userName}
                         name="userName"
                         disabled
                         
