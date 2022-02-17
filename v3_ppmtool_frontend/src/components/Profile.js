@@ -27,8 +27,9 @@ class Profile extends Component {
     return (
       <><br/><br/>
         <div style={{ color: "#fff", textAlign: "center" }}>
+        <p className="lead text-center">Thank you for using jarvis </p><br/>
           <h1 className="display-4">Profile</h1><br/>
-          <p className="lead text-center">Thank you for using jarvis </p><br/><br/><br/>
+          
 
           <form >
           
